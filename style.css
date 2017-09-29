@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+    background: radial-gradient(circle, #7A8287, #5C656C);
+    -webkit-background: radial-gradient(circle, #7A8287, #5C656C);
+    
+}
+
+.name {
+    text-align: right;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    color: azure;
+    font-size: 13px;
+}
+
+#container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+/*    display: none;*/
+    color: azure;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    font-family: 'Josefin Sans';
+}
+
+#up {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#down {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#bup {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#bdown {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sessionz {
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    font-family: 'Josefin Sans';
+    color: azure;
+}
+
+.breaklengthz {
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+#zwork {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#zbreak {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+h1 {
+    margin-top: 200px;
+    text-align: center;
+}
+
+#beginTimer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+/*    display: none;*/
+}
+
+.go {
+    margin-top: 45px;
+    height: 90px;
+    width: 120px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 40px;
+/*    border: 1px solid #7DFC17;*/
+/*    color: #7DFC17;*/
+    border: 1px solid azure;
+    color: azure;
+    font-family: 'Josefin Sans';
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+
+    
+    
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+#containerTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+    color: azure;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+.work/rest {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.workrest {
+    margin-top: 150px;
+    font-size: 50px;
+    padding: 20px 20px 20px 20px;
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+#containerThree {
+    width: 85%;
+    margin: 0 auto;
+    display: none;
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.chuck {
+    text-align: center;
+}
+
+.norris {
+    text-align: center;
+}
+
+.tti {
+    font-family: 'Josefin Sans';
+    color: azure;
+    font-family: 25px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+#beforee {
+    font-family: 'Josefin Sans';
+    color: azure;
+    font-family: 25px;  
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+#gmt {
+    color: #C6EA9B;
+    font-family: 'Josefin Sans';
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+#gmt2 {
+    color: #C6EA9B;
+    font-family: 'Josefin Sans';
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+#containerFour {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.ppause {
+    margin: 40px 40px 40px 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 1px solid azure;
+    color: azure;
+    font-family: 'Josefin Sans';
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    background: transparent;
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+.ppause:focus {outline:0;}
+
+.rreset {
+    margin: 40px 40px 40px 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 1px solid azure;
+    color: azure;
+    font-family: 'Josefin Sans';
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    background: transparent;
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.rreset:focus {outline:0;}
+
+.footer {
+    margin-top: 70px;
+    margin-right: 10px;
+    text-align: right;
+    color: #C6EA9B;
+    font-family: 'Josefin Sans';
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    
+    
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+.footerTwo {
+    margin-right: 10px;
+    text-align: right;
+    color: #C6EA9B;
+    font-family: 'Josefin Sans';
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    
+    
+        -webkit-touch-callout: none;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;    
+}
